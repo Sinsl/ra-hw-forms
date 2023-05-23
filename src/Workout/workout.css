@@ -1,0 +1,81 @@
+.workout {
+  background-color: white;
+  color: black;
+  width: 600px;
+  margin: 30px auto;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+.wkt-form {
+  width: 100%;
+}
+.wkt-form-main {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  column-gap: 20px;
+  align-items: flex-end;
+}
+
+.wkt-form-main input {
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #2a2a2a;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.wkt-btn {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #2a2a2a;
+  color: black;
+}
+.wkt-btn:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.wkt-form-num input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.wkt-form-num input[type='number'] {
+  -moz-appearance: textfield;
+}
+.wkt-todo {
+  margin-top: 30px;
+}
+
+.wkt-todo-signature {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  column-gap: 20px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.wkt-todo-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.wkt-todo-item {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.item-change span {
+  font-size: 18px;
+  margin-right: 10px;
+}

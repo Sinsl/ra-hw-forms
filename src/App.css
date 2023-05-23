@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+  padding: 30px;
+}
+h1, h2, h3 {
+  text-align: center;
+}
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}

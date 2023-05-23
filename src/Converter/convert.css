@@ -1,0 +1,33 @@
+.converter {
+  border: 1px solid #000;
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  background-color: #8c8c8c;
+}
+
+.convert-form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin: calc(400px / 2 - 80px) auto auto;
+}
+.convert-form input{
+  font-size: 16px;
+  height: 50px;
+  text-align: center;
+}
+.convert-form input:focus{
+  outline: none;
+}
+
+.convert-btn {
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  outline: none;
+  font-weight: 700;
+  height: 50px;
+}
