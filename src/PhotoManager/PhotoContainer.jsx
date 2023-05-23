@@ -26,4 +26,4 @@ export const PhotoContainer = ({url}) => {
 
 PhotoContainer.propTypes = {
   url: PropTypes.object,
-}
+};
